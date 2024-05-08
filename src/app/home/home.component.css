@@ -1,0 +1,70 @@
+.main-pic {
+    position: relative;
+    display: flex;
+     justify-content: center; 
+    align-items: center; 
+}
+
+.popup {
+    position: absolute;
+    background-color: none;
+    padding: 20px;
+   margin-left: 80%;
+    border-radius: 10px;
+    margin-top: 0px;
+}
+
+.login{
+    position: absolute;
+    background-color: none;
+    color: blue;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 20px;
+    margin-left: 2%;
+    border-radius: 10px;
+    
+   
+
+}
+
+
+
+
+/* styling table */
+
+.freeTips{
+  /* margin-top: 120px; */
+  height: 400px;
+  background-color: rgb(216, 210, 210);
+  margin-top: 0px;
+} 
+h2{
+    text-decoration: underline;
+    text-align: center;
+    margin-top: 20px;
+}
+
+span{
+    text-decoration: none;
+}
+
+
+.custom-table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #dee2e6;
+    margin-bottom: 30px;
+}
+.custom-table th, .custom-table td {
+    border: 1px solid #dee2e6;
+    padding: 8px;
+    text-align: center;
+}
+.custom-table th {
+    background-color: #343a40;
+    color: white;
+}
+.custom-table tbody tr:nth-child(even) {
+    background-color: #f8f9fa;
+}

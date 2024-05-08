@@ -1,0 +1,42 @@
+.btn-login {
+    background-color: rgb(16, 16, 211); border: none;  padding: 8px 16px;  cursor: pointer;
+}
+
+h1{
+    font-weight: bold;
+    color: white;
+    margin-left:15px ;
+    margin-top: 15px;
+}
+span{
+    color: rgb(17, 206, 17);
+}
+.btn-login:hover {
+    background-color: darkblue; 
+}
+
+.btn-login a {
+    color: white; text-decoration: none;
+}
+
+.nav-item{
+    margin-left: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;;
+ 
+}
+
+.navbar-nav{
+    margin-left: 2px;
+    padding: 25px;
+    margin-top: 6px;
+   
+
+}
+
+.nav-item:hover{
+    background-color: lawngreen;
+}
+

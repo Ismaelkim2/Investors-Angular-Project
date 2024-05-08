@@ -1,0 +1,43 @@
+<app-header></app-header>
+
+<div class="container">
+
+  <img src="assets/images/login.jpg" style="width: 600px;margin-top: 100px;height: 400px;">
+
+  <div class="formdiv">
+
+    <div >
+    <form (ngSubmit)="onLogin()">
+      <div class="mb-3" style="margin-top: 20px;">
+        <label for="phoneNumber" class="form-label">Phone number</label>
+        <input type="tel" class="form-control" id="phoneNumber" name="phoneNumber" [(ngModel)]="phoneNumber" required>
+      </div>
+
+      <div class="mb-3">
+        <label for="password" class="form-label">Password</label>
+        <div class="input-group" style="width: 250px;">
+          <input type="{{ showPassword ? 'text' : 'password' }}" class="form-control" id="password" name="password" [(ngModel)]="password" required style="margin-left: 18px;">
+          <div class="input-group-append">
+            <button type="button" class="btn btn-outline-secondary" (click)="togglePasswordVisibility()">
+              <mat-icon>{{ showPassword ? 'visibility_off' : 'visibility' }}</mat-icon>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <button type="submit" class="btn btn-primary" style="margin-left: 50px;">Login</button>
+    </form>
+    </div>
+
+
+    <div class="reg">
+      <h4 style="margin-left: 50px;">Don't have an account yet? <br><br> <span><a (click)="registration()">REGISTER HERE</a></span></h4>
+    </div>
+
+  </div>
+
+  
+
+</div>
+
+<app-footer style="position: fixed;"></app-footer>

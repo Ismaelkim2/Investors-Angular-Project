@@ -1,0 +1,35 @@
+
+  
+  .card {
+    margin-top: 0px; /* Add some space between header and form */
+  }
+
+ /* app.component.css */
+.container-fluid {
+    padding-top: 100px; /* Maintain space for the header */
+  }
+  
+  .row {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .col-md-6:first-child img {
+    width: 600px;
+    margin-left: 20px; /* Add 20px space from the left */
+  }
+  
+  .card {
+    width: 100%; /* Ensure the form takes full width */
+  }
+
+  label{
+    font-weight: bold;
+   margin-left: 100px;
+  }
+  input{
+    width: 300px;
+    margin-left: 100px;
+  }
+  
+  

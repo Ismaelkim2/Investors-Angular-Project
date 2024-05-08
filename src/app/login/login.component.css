@@ -1,0 +1,70 @@
+.container{
+   display: flex;
+   background-color:rgb(255, 255, 255);
+   margin-bottom: 0px;
+    top: 10%;
+
+
+    
+}
+
+.formdiv{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(231, 228, 228);
+    width: 720px;
+    margin-left: 2%;
+   height: 370px;
+   border-radius: 12px;
+   margin-bottom: 0px;
+   margin-top: 120px;
+
+}
+
+input{
+    width: 200px;
+    margin-left: 15px;
+}
+
+label{
+    font-weight: bold;
+    font-size: 18px;
+    margin-left: 25px;
+}
+
+.form-check-input{
+width: 15px;
+margin-left: 5%;
+}
+
+
+.reg{
+    width: 250px;
+    margin-right: 2%;
+    padding-top: 10px;
+    background-color: rgb(231, 228, 228);
+    margin-top: 50px;
+    height: 100px;
+   
+    
+}
+
+span{
+    color:blue;
+    text-decoration: underline;
+    
+}
+
+h2{
+    color: green;
+    margin-top: 30px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    width: 300px;
+    margin-top: 140px;
+   
+   
+}
+
+
+  

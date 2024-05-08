@@ -1,0 +1,32 @@
+h1{
+    color: rgb(24, 202, 24);
+    text-align: center;
+    margin-top: 20px;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.container{
+    background-color: rgb(224, 212, 145);
+    height: 380px;
+    width: 950px;
+    margin-left: 50px;
+    margin-top: 120px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+}
+   
+
+.main{
+    display: flex;
+    justify-content: space-between;
+  
+}
+
+.btn{
+    background-color:rgb(190, 173, 71);
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    height: 100px;
+}

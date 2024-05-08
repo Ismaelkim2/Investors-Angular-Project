@@ -1,0 +1,50 @@
+<app-header></app-header>
+
+<div class="main-container">
+  <div class="formdiv">
+    <form [formGroup]="ContactUs" (ngSubmit)="onSubmit()">
+      <h2 style="color: rgb(29, 206, 29); font-size: 25px;">How can we be of help to you? Feel free to contact us by filling the form below</h2>
+      <!-- Display the notification message -->
+      <div *ngIf="notificationMessage" class="alert alert-success" role="alert">
+        {{ notificationMessage }}
+      </div>
+      <!-- Form fields -->
+      <div class="form-row" style="display: flex; justify-content: space-between;">
+        <div class="form-group col-md-6">
+          <label for="firstName">First Name</label>
+          <input type="text" class="form-control" id="firstName" formControlName="firstName" placeholder="First Name">
+        </div>
+        <div class="form-group col-md-6">
+          <label for="secondName">Second Name</label>
+          <input type="text" class="form-control" id="secondName" formControlName="secondName" placeholder="Second Name">
+        </div>
+      </div>
+
+      <div class="form-row" style="display: flex; justify-content: space-between;">
+        <div class="form-group col-md-6">
+          <label for="email">Email</label>
+          <input type="email" class="form-control" id="email" formControlName="email" placeholder="Email">
+        </div>
+        <div class="form-group col-md-6">
+          <label for="password">Password</label>
+          <input type="password" class="form-control" id="password" formControlName="password" placeholder="Password">
+        </div>
+      </div>
+
+      <div class="form-group" style="margin-left: 15%;">
+        <textarea class="form-control" id="message" formControlName="message" placeholder="Write to us here. We can hear you" rows="3"></textarea>
+      </div>
+
+      <button type="submit" class="btn btn-primary" style="margin-bottom: 5px;">Submit</button>
+    </form>
+  </div>
+
+  <div class="moreInfo">
+    <h5 style="padding-left: 5px; padding-top: 10px; text-align: center; margin-top: 20px;">For general enquiries, please reach us at hello&#64;predictInvest.com <br> <br>
+    For Adverts &amp; sponsorships, please reach us at hello&#64;predictInvest.com <br> <br>
+    Call us on: +2547 22 61 22 66 (Kenya) <br> <br>
+    Working Hours - Mondays to Fridays (9am to 5pm) Saturdays (10am-12noon) <br> <br>
+    Email: hello&#64;predictInvest.com</h5>
+  </div>
+</div>
+<app-footer></app-footer>

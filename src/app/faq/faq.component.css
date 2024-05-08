@@ -1,0 +1,29 @@
+
+.dropdown{
+  
+    margin-top: 50px;
+    margin-left: 10%;
+}
+
+span{
+    color: blue;
+    text-decoration: underline;
+}
+
+.quiz{
+    background-color: bisque;
+    margin-top: 0px;
+    top: 0px;
+    margin-top: 110px;
+    z-index: 1;
+   
+    
+}
+
+h5{
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
